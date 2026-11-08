@@ -1,0 +1,27 @@
+{
+  "method": "Each code cell executed in order with Python in a separate fresh process per notebook; no Jupyter kernel used.",
+  "schema": "nbformat 4.5; standard-library JSON/field checks (not nbformat-library validation)",
+  "notebooks": [
+    {
+      "file": "01_Data_Cleaning_and_Machine_Learning.ipynb",
+      "code_cells_executed": 11,
+      "markdown_cells": 13,
+      "execution_errors": 0,
+      "unit_tests_passed": 10,
+      "output_types": [
+        "stream"
+      ]
+    },
+    {
+      "file": "02_LLM_Triage_RAG_and_Refund_Agent.ipynb",
+      "code_cells_executed": 13,
+      "markdown_cells": 14,
+      "execution_errors": 0,
+      "unit_tests_passed": 21,
+      "output_types": [
+        "stream"
+      ]
+    }
+  ],
+  "required_supplied_files": "integrity checks passed in notebook tests"
+}

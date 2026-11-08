@@ -42,6 +42,15 @@ The generator prints `generated: customers=1200 products=40 orders_raw=13084 tic
 
 To publish after review, create an empty public GitHub repository, initialize this folder with `git init -b main`, then `git add .`, `git commit -m "Complete offline capstone"`, `git remote add origin <your-repository-url>` and `git push -u origin main`. Submit `https://github.com/<user>/<repo>/tree/main`, checking it is readable while signed out. This ZIP is GitHub-ready; no remote repository has been created or published by this run.
 
+## Notebook option
+
+Two optional, text-output notebooks are in `notebooks/`:
+
+1. `01_Data_Cleaning_and_Machine_Learning.ipynb`: raw audit, cleaning, SQLite/SQL, RFM, K-means, PCA, lapse modelling, oversampling, saved-model checks and an editable new-customer prediction.
+2. `02_LLM_Triage_RAG_and_Refund_Agent.ipynb`: privacy, prompt comparison, retries, routing, editable ticket/policy questions, TF-IDF evaluation, refund tools, limits and crash recovery.
+
+Open them in a notebook editor such as VS Code with notebook support or Jupyter, select the same Python environment as the project, and run notebook 1 then notebook 2 from top to bottom. Keep them in the provided notebooks subfolder. A notebook editor/kernel is optional tooling and is not included in the core requirements.txt; the command-line reproduction above does not need Jupyter. The notebooks reuse the tested modules and include saved real text outputs. Their code cells were executed sequentially using Python during preparation, rather than through a Jupyter kernel. Notebook 1 regenerates data and ML artifacts; notebook 2 regenerates the synthetic benchmark ledger, run logs and demo checkpoints. Neither changes the two supplied scripts or issues real refunds. Captured historical reproduction logs describe the earlier command-line version; notebook verification is recorded separately in outputs/notebook_verification.json.
+
 # Part A
 
 ## Raw audit
