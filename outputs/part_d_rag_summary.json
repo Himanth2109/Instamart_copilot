@@ -1,0 +1,33 @@
+{
+  "10": {
+    "chunks": 15,
+    "by_source": {
+      "delivery_policy.txt": 3,
+      "escalation_policy.txt": 3,
+      "payment_policy.txt": 3,
+      "privacy_policy.txt": 2,
+      "refund_policy.txt": 4
+    },
+    "retrieval_hits": 12,
+    "fact_hits": 12,
+    "fallbacks": 2,
+    "failed_questions": []
+  },
+  "0": {
+    "chunks": 13,
+    "by_source": {
+      "delivery_policy.txt": 3,
+      "escalation_policy.txt": 2,
+      "payment_policy.txt": 3,
+      "privacy_policy.txt": 2,
+      "refund_policy.txt": 3
+    },
+    "retrieval_hits": 12,
+    "fact_hits": 10,
+    "fallbacks": 2,
+    "failed_questions": [
+      "What delivery time makes a completed order eligible for a full refund?",
+      "How soon is money returned when a payment fails but is deducted?"
+    ]
+  }
+}

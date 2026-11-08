@@ -1,0 +1,25 @@
+test_all_sql_results (test_project.Foundation.test_all_sql_results) ... ok
+test_exact_checkpoints (test_project.Foundation.test_exact_checkpoints) ... ok
+test_raw_audit (test_project.Foundation.test_raw_audit) ... ok
+test_clustering_tolerances (test_project.Models.test_clustering_tolerances) ... ok
+test_premium_and_retention (test_project.Models.test_premium_and_retention) ... ok
+test_temporal_features_and_model_reload (test_project.Models.test_temporal_features_and_model_reload) ... ok
+test_chunking_and_grounding (test_project.RetrievalAndAgent.test_chunking_and_grounding) ... ok
+test_limits_stop_before_tool_and_before_first_call (test_project.RetrievalAndAgent.test_limits_stop_before_tool_and_before_first_call) ... ok
+test_scenarios_limits_and_crash_resume (test_project.RetrievalAndAgent.test_scenarios_limits_and_crash_resume) ... ok
+test_tool_boundaries (test_project.RetrievalAndAgent.test_tool_boundaries) ... ok
+test_authoritative_code_is_unchanged (test_project.SuppliedFiles.test_authoritative_code_is_unchanged) ... ok
+test_starter_preservation (test_project.SuppliedFiles.test_starter_preservation) ... ok
+test_final_routing (test_project.Triage.test_final_routing) ... ok
+test_measured_statuses_privacy_retries_and_accuracy (test_project.Triage.test_measured_statuses_privacy_retries_and_accuracy) ... ok
+test_no_model_call_when_budget_zero (test_project.Triage.test_no_model_call_when_budget_zero) ... ok
+test_privacy_and_strict_output_validation (test_project.Triage.test_privacy_and_strict_output_validation) ... ok
+test_retry_limits_and_exponential_jitter (test_project.Triage.test_retry_limits_and_exponential_jitter) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.231s
+
+OK
+test retry 0: wait 0.052993s
+test retry 1: wait 0.090625s
+test retry 2: wait 0.193751s

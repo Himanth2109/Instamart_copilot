@@ -1,0 +1,9 @@
+{
+  ".gitignore(1)": "ef63c9e1919630e9cf535a4f1ffd94ffe19c2c14b9bff2caf38f6b3f346dff8b",
+  "generate_data(1).py": "f6fe1f17e7ca5daa132256bb62505817f2bb87160e6a4bfbe8c3a8a9a577bab7",
+  "GITHUB_RESOURCES.md": "e2bece15667c8a98bbca03ec86488eb9360270814f11064ec570f18f2fcc220f",
+  "mock_llm.py": "9072a866db9968577e631a93cefff5773d43767adad6120a104a37fd4ed82494",
+  "README.md": "733240929c76d1cac247719a0e85018a8f1968ad8513f5191c2d5ab5d1e1fd03",
+  "requirements.txt": "c349c23ebe0e10905b42160d81c5cefb073996790ab8b2d78a8dac1c7ff2eb5a",
+  "run_project.py": "5ff9734c036e6f2f7accc8fd65d6d759cd259140498589854489d7cafcc91d02"
+}

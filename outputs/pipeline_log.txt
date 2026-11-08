@@ -1,0 +1,77 @@
+PART A
+ALL CHECKPOINTS PASSED
+PART B
+{'cohort': 1156, 'lapsed': 443, 'train': 924, 'test': 232, 'train_class_counts': {0: 570, 1: 354}, 'baseline': {'precision': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0), 'accuracy': 0.6163793103448276, 'confusion_matrix': [[143, 0], [89, 0]]}, 'lr': {'best_params': {'model__C': 100}, 'cv_f1': np.float64(0.650552962900789), 'precision': np.float64(0.6444444444444445), 'recall': np.float64(0.651685393258427), 'f1': np.float64(0.6480446927374302), 'accuracy': 0.728448275862069, 'confusion_matrix': [[111, 32], [31, 58]]}, 'rf': {'best_params': {'model__max_depth': 5, 'model__min_samples_leaf': 5}, 'cv_f1': np.float64(0.6828774929815611), 'precision': np.float64(0.6292134831460674), 'recall': np.float64(0.6292134831460674), 'f1': np.float64(0.6292134831460674), 'accuracy': 0.7155172413793104, 'confusion_matrix': [[110, 33], [33, 56]]}, 'selected': 'rf', 'balanced_lr': {'precision': np.float64(0.5891472868217055), 'recall': np.float64(0.8539325842696629), 'f1': np.float64(0.6972477064220184), 'accuracy': 0.7155172413793104, 'confusion_matrix': [[90, 53], [13, 76]]}, 'balanced_counts': {1: 570, 0: 570}, 'frequency_scaler_mean': np.float64(8.114718614718615), 'frequency_cohort_mean': np.float64(8.028546712802768), 'rf_top_five': [('num__frequency', np.float64(0.3171878438188306)), ('num__monetary', np.float64(0.2600464611202057)), ('num__recency', np.float64(0.11234981886882067)), ('num__cancellation_rate', np.float64(0.07273013306416848)), ('num__avg_delivery', np.float64(0.04923196597910716))], 'lr_coefficients': {'recency': np.float64(0.03958502998520295), 'frequency': np.float64(-1.6982389203159152), 'monetary': np.float64(0.28457332751942055)}, 'reload_identical': True, 'retention_true_lapsed': 0}
+PART C
+T0002 retry 0: wait 0.052993s
+T0116 retry 0: wait 0.045313s
+T0153 retry 0: wait 0.048438s
+T0039 retry 0: wait 0.047790s
+T0152 retry 0: wait 0.054206s
+T0043 retry 0: wait 0.053459s
+T0111 retry 0: wait 0.056152s
+T0155 retry 0: wait 0.046087s
+T0100 retry 0: wait 0.050274s
+T0068 retry 0: wait 0.045372s
+T0135 retry 0: wait 0.047733s
+T0009 retry 0: wait 0.051317s
+T0067 retry 0: wait 0.045332s
+T0106 retry 0: wait 0.047485s
+T0097 retry 0: wait 0.053124s
+T0003 retry 0: wait 0.051812s
+T0019 retry 0: wait 0.047756s
+T0086 retry 0: wait 0.052366s
+T0065 retry 0: wait 0.055118s
+T0002 retry 0: wait 0.052993s
+T0116 retry 0: wait 0.045313s
+T0153 retry 0: wait 0.048438s
+T0039 retry 0: wait 0.047790s
+T0152 retry 0: wait 0.054206s
+T0043 retry 0: wait 0.053459s
+T0111 retry 0: wait 0.056152s
+T0155 retry 0: wait 0.046087s
+T0100 retry 0: wait 0.050274s
+T0068 retry 0: wait 0.045372s
+T0135 retry 0: wait 0.047733s
+T0009 retry 0: wait 0.051317s
+T0067 retry 0: wait 0.045332s
+T0106 retry 0: wait 0.047485s
+T0097 retry 0: wait 0.053124s
+T0003 retry 0: wait 0.051812s
+T0019 retry 0: wait 0.047756s
+T0086 retry 0: wait 0.052366s
+T0065 retry 0: wait 0.055118s
+T0002 retry 0: wait 0.052993s
+T0116 retry 0: wait 0.045313s
+T0153 retry 0: wait 0.048438s
+T0039 retry 0: wait 0.047790s
+T0152 retry 0: wait 0.054206s
+T0043 retry 0: wait 0.053459s
+T0111 retry 0: wait 0.056152s
+T0155 retry 0: wait 0.046087s
+T0100 retry 0: wait 0.050274s
+T0068 retry 0: wait 0.045372s
+T0135 retry 0: wait 0.047733s
+T0009 retry 0: wait 0.051317s
+T0067 retry 0: wait 0.045332s
+T0002 retry 0: wait 0.052993s
+T0116 retry 0: wait 0.045313s
+T0153 retry 0: wait 0.048438s
+T0039 retry 0: wait 0.047790s
+T0152 retry 0: wait 0.054206s
+T0043 retry 0: wait 0.053459s
+T0111 retry 0: wait 0.056152s
+T0155 retry 0: wait 0.046087s
+T0100 retry 0: wait 0.050274s
+T0068 retry 0: wait 0.045372s
+T0135 retry 0: wait 0.047733s
+T0009 retry 0: wait 0.051317s
+T0067 retry 0: wait 0.045332s
+T0106 retry 0: wait 0.047485s
+T0097 retry 0: wait 0.053124s
+T0003 retry 0: wait 0.051812s
+T0019 retry 0: wait 0.047756s
+T0086 retry 0: wait 0.052366s
+T0065 retry 0: wait 0.055118s
+PART D
+PROJECT COMPLETE

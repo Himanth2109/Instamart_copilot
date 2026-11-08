@@ -1,0 +1,1 @@
+"""Offline capstone implementation."""

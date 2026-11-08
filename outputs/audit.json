@@ -1,0 +1,106 @@
+{
+  "customers": {
+    "shape": [
+      1200,
+      5
+    ],
+    "dtypes": {
+      "customer_id": "object",
+      "city": "object",
+      "signup_date": "object",
+      "age": "object",
+      "gender": "object"
+    },
+    "missing_count": {
+      "customer_id": 0,
+      "city": 0,
+      "signup_date": 0,
+      "age": 61,
+      "gender": 30
+    },
+    "missing_pct": {
+      "customer_id": 0.0,
+      "city": 0.0,
+      "signup_date": 0.0,
+      "age": 5.083333333333333,
+      "gender": 2.5
+    }
+  },
+  "products": {
+    "shape": [
+      40,
+      4
+    ],
+    "dtypes": {
+      "product_id": "object",
+      "product_name": "object",
+      "category": "object",
+      "price_inr": "int64"
+    },
+    "missing_count": {
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "price_inr": 0
+    },
+    "missing_pct": {
+      "product_id": 0.0,
+      "product_name": 0.0,
+      "category": 0.0,
+      "price_inr": 0.0
+    }
+  },
+  "orders": {
+    "shape": [
+      13084,
+      9
+    ],
+    "dtypes": {
+      "order_id": "object",
+      "customer_id": "object",
+      "product_id": "object",
+      "quantity": "int64",
+      "order_ts": "object",
+      "status": "object",
+      "discount_pct": "int64",
+      "order_amount": "object",
+      "delivery_minutes": "object"
+    },
+    "missing_count": {
+      "order_id": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "order_ts": 0,
+      "status": 0,
+      "discount_pct": 0,
+      "order_amount": 0,
+      "delivery_minutes": 2541
+    },
+    "missing_pct": {
+      "order_id": 0.0,
+      "customer_id": 0.0,
+      "product_id": 0.0,
+      "quantity": 0.0,
+      "order_ts": 0.0,
+      "status": 0.0,
+      "discount_pct": 0.0,
+      "order_amount": 0.0,
+      "delivery_minutes": 19.420666462855397
+    }
+  },
+  "specific": {
+    "raw_rows": 13084,
+    "exact_duplicates": 119,
+    "pending": 656,
+    "distinct_orders": 12309,
+    "non_numeric_amounts": 120,
+    "negative_delivery": 106,
+    "blank_delivery": 2541,
+    "blank_age": 61,
+    "invalid_age": 6,
+    "city_spellings": 24,
+    "gender_spellings": 10,
+    "blank_gender": 30
+  }
+}

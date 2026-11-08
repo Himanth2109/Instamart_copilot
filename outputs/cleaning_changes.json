@@ -1,0 +1,10 @@
+{
+  "city_values_changed": 476,
+  "gender_values_changed": 950,
+  "ages_imputed": 67,
+  "exact_rows_removed": 119,
+  "earlier_records_removed": 656,
+  "amounts_reconstructed": 112,
+  "negative_durations_cleared": 105,
+  "completed_durations_imputed": 774
+}
