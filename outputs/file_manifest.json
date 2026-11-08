@@ -1,4 +1,5 @@
 {
+  ".gitattributes": "9e1c4d78b781471c043af621f8377fc89d6718e6c70ba98c7642158780ed3e9c",
   ".gitignore": "1b9a7900d6ba7fc9ecaec581a0a56fb64b609c980f1e5273141932772f8c4e8b",
   "data/clean/customers.csv": "e7ab06f3b67f46d53a3e2cf3cb7282a6451ad6507b9f2134ee07a1748527b96e",
   "data/clean/orders.csv": "0cfc17609bc78108af8241af865aa9cf8f73b12e9eac5d07b9f4894a4a5d5fcf",
@@ -66,7 +67,7 @@
   "outputs/triage_zero_confusion.csv": "33b7b8df6f186974382e104fa4e30df50ad6934843144badb6c4d746ffb7dc24",
   "outputs/triage_zero_retry_log.json": "730913db95509f043c48fb3a834fcbce7b76f0c6c4eca911a1a7220e1fab20e4",
   "outputs/triage_zero_summary.json": "38d730647cb72ca3b511e6f0b9a9b9dff9c8acb0254044db921c656452ba0166",
-  "README.md": "f017bd4a9edba15ec69def383d3257fa8c392a32d8c0d2ed8a615fd10f85e3bf",
+  "README.md": "adc44127558e9f8a9b96b46282f3d56acd9e4b82e7f2810dd542cac7c726700e",
   "reference/starter_originals/.gitignore(1)": "ef63c9e1919630e9cf535a4f1ffd94ffe19c2c14b9bff2caf38f6b3f346dff8b",
   "reference/starter_originals/generate_data(1).py": "f6fe1f17e7ca5daa132256bb62505817f2bb87160e6a4bfbe8c3a8a9a577bab7",
   "reference/starter_originals/GITHUB_RESOURCES.md": "e2bece15667c8a98bbca03ec86488eb9360270814f11064ec570f18f2fcc220f",
@@ -86,7 +87,7 @@
   "src/data_pipeline.py": "dd75e7aacd363c072c9055acdfe5d4379bf7f5fe496ca896f767ecf0c5e1b2be",
   "src/policy_rag.py": "c5d9ac1e895c2a2444d8577941f3de6ce0f3b018cdef1512a5d59f21aa917890",
   "src/refund_agent.py": "07c2ae685262cb41127f6356f1617e8cf160ddf27cdd7df6df3b68a2659e0a02",
-  "src/report.py": "e2ca34c62259cd4ba15b9fb28f91436d60875c24b1d21401975291a1ec8aa896",
+  "src/report.py": "69370e3976444103a26d31af97903fefd0d9320c536f5b1dfbd2cb9abed52cb7",
   "src/triage.py": "bce2b1ceab597ed8346437acc9d8f135b2108f5acd29e424f6c35ca736789c97",
   "state/demo_crash.json": "585969fd49335a2fb5ef67639829a9b8a055acec9764e43fb65b5a1c9fb57812",
   "state/demo_S1.json": "aac0824f744370bd9ff95b7ee0cc87523f57aa70ddfe00b1ffc9f0c7c3fa4df9",

@@ -1,0 +1,2 @@
+# Preserve supplied files, generated CSVs and checksum evidence byte-for-byte.
+* -text
