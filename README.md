@@ -289,6 +289,12 @@ Logistic coefficients (scaled features):
 
 The saved joblib model reload reproduces test predictions exactly: True. The top Premium test retention list contains 0 truly lapsed customers out of 10. The Premium flag is a post-hoc whole-window label, so the retention list is illustrative and not a leakage-free evaluation.
 
+## Enter a new customer's details
+
+After the saved model exists, run `.venv\Scripts\python.exe predict_customer.py` from the repository root. The script asks for a synthetic customer identifier, recency, frequency, monetary spend, average discount and delivery time, cancellation fraction, favourite category, city, age, gender and tenure. It validates the entries and prints an estimated lapse probability and predicted class using the saved model, without modifying data or retraining. No name, phone number or email is needed. Use the five-month history ending before the scoring month, consistent with the training window; lapse refers to no completed orders in the following month. A brand-new customer with zero completed orders cannot be scored because this model was trained only on existing purchasers.
+
+For a quick fictional example, run `.venv\Scripts\python.exe predict_customer.py --example`. Its measured score is about 34.9%, classified as likely to remain active. This is an educational synthetic-data prediction, not an observed outcome or a validated production probability. The additional inference/input-validation tests bring the current test suite to 21 tests; original clean-source reproduction logs document the earlier 17-test submission.
+
 # Part C
 
 Empty/whitespace tickets never call the model; texts over 400 estimated tokens never call it. The four long tickets estimate to 734 tokens each. The raw ticket file is read with keep_default_na=False. Before prompting, redaction applies email, phone and order-ID regexes in the exact required order; patterns and replacements are in src/triage.py. Redaction runs across all 164 tickets, and assertions verify zero remaining matches and that the user message is exactly the redacted text. System prompts contain no customer details.

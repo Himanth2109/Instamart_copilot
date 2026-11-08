@@ -1,3 +1,7 @@
+test_inputs_normalize_and_do_not_mutate_model (test_prediction.CustomerPrediction.test_inputs_normalize_and_do_not_mutate_model) ... ok
+test_interactive_entry_point (test_prediction.CustomerPrediction.test_interactive_entry_point) ... ok
+test_invalid_and_cold_start_input (test_prediction.CustomerPrediction.test_invalid_and_cold_start_input) ... ok
+test_saved_pipeline_prediction_matches (test_prediction.CustomerPrediction.test_saved_pipeline_prediction_matches) ... ok
 test_all_sql_results (test_project.Foundation.test_all_sql_results) ... ok
 test_exact_checkpoints (test_project.Foundation.test_exact_checkpoints) ... ok
 test_raw_audit (test_project.Foundation.test_raw_audit) ... ok
@@ -17,7 +21,7 @@ test_privacy_and_strict_output_validation (test_project.Triage.test_privacy_and_
 test_retry_limits_and_exponential_jitter (test_project.Triage.test_retry_limits_and_exponential_jitter) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.231s
+Ran 21 tests in 0.464s
 
 OK
 test retry 0: wait 0.052993s
