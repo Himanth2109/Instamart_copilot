@@ -8,7 +8,7 @@ This package was prepared with AI assistance. Review and understand the implemen
 
 # Reproduce
 
-Use Python 3.11 or newer (tested with Python 3.12.14) and SQLite 3.25+ (tested 3.53.1). Run from the repository root. No activation is necessary. The following numbered commands use Windows PowerShell; on macOS/Linux replace `.venv\Scripts\python.exe` with `.venv/bin/python` throughout.
+Use Python 3.11 or newer (tested with Python 3.12.10) and SQLite 3.25+ (tested 3.49.1). Run from the repository root. No activation is necessary. The following numbered commands use Windows PowerShell; on macOS/Linux replace `.venv\Scripts\python.exe` with `.venv/bin/python` throughout.
 
 1. `python -m venv .venv`
 2. `.venv\Scripts\python.exe -m pip install -r requirements.txt`
